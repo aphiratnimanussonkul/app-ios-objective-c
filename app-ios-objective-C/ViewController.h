@@ -12,6 +12,8 @@
 @interface ViewController : UIViewController<SampleProtocolDelegate> {
     __weak IBOutlet UILabel *labelDelegate;
     
+    __weak IBOutlet UITextField *usernameTextField;
+    __weak IBOutlet UITextField *passwordTextField;
 }
 
 

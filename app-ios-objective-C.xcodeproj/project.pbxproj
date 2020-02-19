@@ -17,6 +17,7 @@
 		6B357DB523FCE25C008F82F5 /* app_ios_objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DB423FCE25C008F82F5 /* app_ios_objective_CTests.m */; };
 		6B357DC023FCE25C008F82F5 /* app_ios_objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DBF23FCE25C008F82F5 /* app_ios_objective_CUITests.m */; };
 		6B357DCF23FCEA14008F82F5 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DCE23FCEA14008F82F5 /* SampleProtocol.m */; };
+		6B357DD423FD1648008F82F5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DD323FD1648008F82F5 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		6B357DC123FCE25C008F82F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B357DCD23FCE7CA008F82F5 /* SampleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
 		6B357DCE23FCEA14008F82F5 /* SampleProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
+		6B357DD323FD1648008F82F5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6B357DD523FD1669008F82F5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				6B357D9C23FCE25B008F82F5 /* SceneDelegate.m */,
 				6B357D9E23FCE25B008F82F5 /* ViewController.h */,
 				6B357D9F23FCE25B008F82F5 /* ViewController.m */,
+				6B357DD523FD1669008F82F5 /* HomeViewController.h */,
+				6B357DD323FD1648008F82F5 /* HomeViewController.m */,
 				6B357DA123FCE25B008F82F5 /* Main.storyboard */,
 				6B357DA423FCE25C008F82F5 /* Assets.xcassets */,
 				6B357DA623FCE25C008F82F5 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				6B357D9A23FCE25B008F82F5 /* AppDelegate.m in Sources */,
 				6B357DAB23FCE25C008F82F5 /* main.m in Sources */,
 				6B357D9D23FCE25B008F82F5 /* SceneDelegate.m in Sources */,
+				6B357DD423FD1648008F82F5 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
