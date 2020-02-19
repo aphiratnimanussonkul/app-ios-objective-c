@@ -16,6 +16,7 @@
 		6B357DAB23FCE25C008F82F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DAA23FCE25C008F82F5 /* main.m */; };
 		6B357DB523FCE25C008F82F5 /* app_ios_objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DB423FCE25C008F82F5 /* app_ios_objective_CTests.m */; };
 		6B357DC023FCE25C008F82F5 /* app_ios_objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DBF23FCE25C008F82F5 /* app_ios_objective_CUITests.m */; };
+		6B357DCF23FCEA14008F82F5 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B357DCE23FCEA14008F82F5 /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6B357DBB23FCE25C008F82F5 /* app-ios-objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-ios-objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B357DBF23FCE25C008F82F5 /* app_ios_objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = app_ios_objective_CUITests.m; sourceTree = "<group>"; };
 		6B357DC123FCE25C008F82F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B357DCD23FCE7CA008F82F5 /* SampleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		6B357DCE23FCEA14008F82F5 /* SampleProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6B357DA623FCE25C008F82F5 /* LaunchScreen.storyboard */,
 				6B357DA923FCE25C008F82F5 /* Info.plist */,
 				6B357DAA23FCE25C008F82F5 /* main.m */,
+				6B357DCD23FCE7CA008F82F5 /* SampleProtocol.h */,
+				6B357DCE23FCEA14008F82F5 /* SampleProtocol.m */,
 			);
 			path = "app-ios-objective-C";
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B357DCF23FCEA14008F82F5 /* SampleProtocol.m in Sources */,
 				6B357DA023FCE25B008F82F5 /* ViewController.m in Sources */,
 				6B357D9A23FCE25B008F82F5 /* AppDelegate.m in Sources */,
 				6B357DAB23FCE25C008F82F5 /* main.m in Sources */,
