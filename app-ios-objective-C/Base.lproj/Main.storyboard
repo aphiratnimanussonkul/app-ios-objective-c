@@ -41,6 +41,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="labelDelegate" destination="weB-3F-zQB" id="4j8-4e-OCW"/>
                         <outlet property="titleLabel" destination="weB-3F-zQB" id="wVT-Vv-Ekp"/>
                     </connections>
                 </viewController>

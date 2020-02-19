@@ -20,11 +20,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setLabelTitle: @"Test Set string in label"];
-    // Do any additional setup after loading the view.
+    
+    //Init protocol
+    SampleProtocol *sampleProtocol = [[SampleProtocol alloc] init];
+    sampleProtocol.delegate = self;
+    [labelDelegate setText:@"Processing Delegate"];
+    [sampleProtocol startSampleProcess];
+    
 }
 - (void)setLabelTitle:(NSString*)titleString {
     [_titleLabel setText: titleString];
+}
+
+#pragma mark - SampleProtocol delegate
+-(void) processCompleted {
+    [labelDelegate setText: @"Process completed"];
 }
 
 
